@@ -1,0 +1,19 @@
+Risomap: fast isomap implementation in R with Rcpp
+================================================================================
+
+to use:
+ - copy risomap.so in R working directory
+ - import "risomap.R" script on R
+ - use risomap function
+
+to compile:
+ To compile the project, lapack, CPPLapack and Rcpp are needed to be installed.
+ lapack and CPPLapack could be installed below.
+  - lapack: http://www.netlib.org/lapack/
+  - CPPLapack: http://cpplapack.sourceforge.net/
+ Rcpp could be installed via normal R package installation process (install.pack
+ -ages).
+
+ On the project directory, you could type "R CMD SHLIB risomap.cpp" command for 
+ compilation.
+ 
